@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Leavitt – Public Affairs Marketing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #111727;
+      --accent: #ffc857;
+      --text: #f7f7ff;
+      --muted: #b4b7c8;
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-serif: "Georgia", "Times New Roman", serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-sans);
+      background: radial-gradient(circle at top, #151a30 0, #050712 55%, #02030a 100%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      padding: 32px 24px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .hero {
+      max-width: 960px;
+      margin: 24px auto 40px;
+      padding: 32px 24px 40px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(17,23,39,0.96), rgba(10,16,30,0.98));
+      border: 1px solid rgba(255,255,255,0.04);
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.1fr);
+      gap: 32px;
+    }
+
+    .hero-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(30px, 4vw, 40px);
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+
+    .hero-sub {
+      font-size: 15px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .hero-meta {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .hero-cta {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.2);
+      font-size: 13px;
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #111;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto 80px;
+      padding: 0 24px 48px;
+    }
+
+    section {
+      margin-top: 40px;
+    }
+
+    section h2 {
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .section-lede {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 560px;
+      margin-bottom: 18px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr);
+      gap: 32px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 12px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 18px 18px 20px;
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .card-kicker {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .card-body {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pill-row {
+      margin-top: 10px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    @media (max-width: 720px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .two-col {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">David&nbsp;Leavitt</div>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#cases">Case studies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <div class="hero-kicker">Public affairs marketing · Washington, DC & Brussels</div>
+      <h1>I build data‑driven public affairs marketing that earns trust, shifts opinion, and guides smarter decisions.</h1>
+      <p class="hero-sub">
+        Corporate marketing strategist helping teams move from gut decisions to evidence‑backed strategy across policy,
+        reputation, and board‑level communications.
+      </p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          Talk about a campaign
+        </button>
+        <button class="btn" onclick="document.getElementById('cases').scrollIntoView({behavior:'smooth'})">
+          Browse case studies
+        </button>
+      </div>
+      <p class="tagline">
+        Former Meta corporate marketing · Consultant to Intuit global public affairs · Work across tech, financial services, hospitality, NGOs.
+      </p>
+    </div>
+    <div>
+      <div class="pill">Measurement & learning agendas</div>
+      <div class="pill">Persuadable audience strategy</div>
+      <div class="pill">Board‑level storytelling</div>
+      <p class="hero-meta" style="margin-top: 12px;">
+        I’ve led integrated media and measurement work at global agencies and in‑house teams, building frameworks that
+        show which channels, messages, and partners actually move the needle with policymakers and opinion leaders.
+      </p>
+    </div>
+  </section>
+
+  <main>
+    <section id="work">
+      <h2>Who I Am</h2>
+      <div class="section-title">Corporate marketing strategist for complex, high‑stakes issues.</div>
+      <p class="section-lede">
+        I specialize in turning complex data and political realities into clear decisions, using measurement and audience insights
+        to guide public affairs, corporate reputation, and integrated campaigns.
+      </p>
+
+      <div class="two-col">
+        <div>
+          <ul>
+            <li>Experience in Washington, DC and Brussels running campaigns that change how policymakers and the public think about tech, finance, and sustainability.</li>
+            <li>Background across agency, in‑house, and consulting roles for tech platforms, financial services, hospitality brands, and global NGOs.</li>
+            <li>Partner to internal teams on clarifying ownership, building trust, and making evidence‑driven decisions under scrutiny.</li>
+          </ul>
+        </div>
+        <div>
+          <strong style="font-size:13px; text-transform:uppercase; letter-spacing:0.16em; color:var(--muted);">Areas of focus</strong>
+          <ul style="margin-top:8px;">
+            <li>Brand strategy and positioning</li>
+            <li>Public affairs marketing</li>
+            <li>Measurement and analytics</li>
+            <li>Audience insights and targeting</li>
+            <li>Strategy and optimization</li>
+            <li>Cross‑functional leadership</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How I Help</h2>
+      <div class="section-title">From “did this work?” to “what should we do next?”</div>
+      <p class="section-lede">
+        I work with marketing and public affairs teams to design systems that quantify impact, reveal where to invest next, and align stakeholders around a shared playbook.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-title">Partnering with marketing teams</div>
+          <div class="card-body">
+            I help teams develop measurement frameworks, evaluation systems, and strategic guidance that connect campaigns to real policy and business outcomes.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">What I deliver</div>
+          <div class="card-body">
+            Landscape assessments, funnel strategies, measurement roadmaps, messaging platforms, campaign playbooks, and board‑ready narratives for senior leadership.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases">
+      <h2>Case Studies</h2>
+      <div class="section-title">Selected work</div>
+      <p class="section-lede">
+        A few examples of how I’ve used measurement, audience strategy, and creative to move opinion, close partisan gaps, and drive behavior change.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-kicker">Meta · Measurement</div>
+          <div class="card-title">Building a policy marketing measurement roadmap</div>
+          <div class="card-body">
+            Designed a multi‑layered framework using brand lift, matched‑market testing, and a centralized learning agenda so corporate policy campaigns could see impact by channel and partner.
+            <div class="pill-row">Brand lift · Incremental lift · Learning agenda</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-kicker">Meta · Audience strategy</div>
+          <div class="card-title">Reframing who is actually persuadable</div>
+          <div class="card-body">
+            Partnered on a persuadable audience model that surfaced older adults and parents as highest‑potential targets, then rebuilt media and creative strategy to follow the data.
+            <div class="pill-row">Persuadable modeling · Policy elites · Targeting</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-kicker">Meta · Bipartisan playbook</div>
+          <div class="card-title">Closing partisan engagement gaps</div>
+          <div class="card-body">
+            Used district‑level data and media analysis to pivot policy marketing toward local TV news and locally grounded narratives, increasing resonance with Republican audiences while maintaining Democratic support.
+            <div class="pill-row">Bipartisan strategy · Local media · Narrative design</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-kicker">Intuit · Trust</div>
+          <div class="card-title">From vanity metrics to trust engine</div>
+          <div class="card-body">
+            Shifted Public Affairs from impressions and CTRs to trust, credibility, and cost per point of lift, embedding a learning agenda and pre‑testing to validate what truly moves opinion.
+            <div class="pill-row">Reputation · CPPL · Learning culture</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-kicker">UNICEF · UNGA</div>
+          <div class="card-title">Owning the conversation on children</div>
+          <div class="card-body">
+            Led a real‑time content studio at UN General Assembly, turning small moments into social storytelling that captured a leading share of online conversation on children and SDGs.
+            <div class="pill-row">Real‑time content · Social · Share of voice</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-kicker">FEVE · Experiential</div>
+          <div class="card-title">Making sustainability playful at checkout</div>
+          <div class="card-body">
+            Designed multi‑market retail activations and social amplification that used animated “thank you” moments and rigorous brand lift studies to increase intent to choose glass packaging.
+            <div class="pill-row">Experiential retail · Behavior change · Brand lift</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="section-title">Let’s talk about your next campaign.</div>
+      <p class="section-lede">
+        I work with corporate marketing and public affairs teams who want to make better decisions in complex, high‑stakes environments.
+      </p>
+      <p>
+        Email: <a href="mailto:David@LeavittDC.com">David@LeavittDC.com</a><br />
+        LinkedIn: <a href="https://linkedin.com/in/davidleavitt/" target="_blank">linkedin.com/in/davidleavitt/</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>Available for consulting and fractional leadership.</div>
+    <div>Washington, DC · Brussels‑informed perspective.</div>
+  </footer>
+</body>
+</html>

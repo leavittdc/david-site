@@ -13,7 +13,7 @@
       --bg-cool: #f0f2f5;
       --text: #1a1d29;
       --muted: #5a5d6b;
-      --accent: #d4a855;
+      --accent: #c49440; /* Darkened for better contrast */
       --border: rgba(26, 29, 41, 0.08);
       --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       --font-serif: "Georgia", "Times New Roman", serif;
@@ -44,7 +44,7 @@
     }
 
     .logo {
-      font-family: var(--font-sans); /* Changed to sans-serif */
+      font-family: var(--font-sans);
       font-size: 18px;
       font-weight: 600;
       letter-spacing: 0.16em;
@@ -70,13 +70,12 @@
       background-image: url('https://express.adobe.com/page/yPbH7LOQ0kv0s/images/46fbab8e-45e7-4995-8db6-703af664150b.jpg?asset_id=80b855e5-d9d1-45e9-ae85-42bb79e0bdb0&img_etag=656810871b7b907f04d4288a3558a587&size=1024');
       background-size: cover;
       background-position: center;
-      background-attachment: fixed; /* Parallax effect */
+      background-attachment: fixed;
       padding: 64px 24px 72px;
       border-bottom: 1px solid var(--border);
       position: relative;
     }
 
-    /* Overlay - lighter so more image shows through */
     .hero-section::before {
       content: '';
       position: absolute;
@@ -84,7 +83,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(255, 255, 255, 0.82); /* Reduced from 0.88 */
+      background: rgba(255, 255, 255, 0.82);
       pointer-events: none;
     }
 
@@ -104,9 +103,9 @@
     }
 
     h1 {
-      font-family: var(--font-serif); /* Changed to serif */
+      font-family: var(--font-serif);
       font-size: clamp(32px, 5vw, 44px);
-      font-weight: 400; /* Serif usually looks better at normal weight */
+      font-weight: 400;
       line-height: 1.15;
       margin-bottom: 16px;
       max-width: 640px;
@@ -149,7 +148,6 @@
       position: relative;
     }
 
-    /* Subtle noise texture overlay */
     .section-band::before {
       content: '';
       position: absolute;
@@ -335,14 +333,13 @@
         gap: 4px;
       }
       
-      /* Mobile: disable parallax, lighter overlay, better positioning */
       .hero-section {
-        background-attachment: scroll; 
-        background-position: center 30%; /* Show more interesting part of image */
+        background-attachment: scroll;
+        background-position: center 30%;
       }
       
       .hero-section::before {
-        background: rgba(255, 255, 255, 0.75); /* Even lighter on mobile so image pops */
+        background: rgba(255, 255, 255, 0.80); /* Slightly more washed out on mobile */
       }
     }
   </style>
@@ -358,7 +355,7 @@
       </nav>
     </header>
 
-    <!-- HERO BAND with your Brussels photo -->
+    <!-- HERO BAND -->
     <div class="hero-section">
       <div class="hero">
         <div class="hero-kicker">Public affairs marketing · Washington, DC & Brussels</div>
@@ -375,27 +372,27 @@
       </div>
     </div>
 
-    <!-- WHO I AM BAND (warm) -->
+    <!-- WHO I AM BAND -->
     <div class="section-band warm">
       <section id="work">
         <h2>Who I Am</h2>
-        <div class="section-title">Corporate marketing strategist for complex, high‑stakes issues.</div>
+        <div class="section-title">I'm a corporate marketing strategist for complex, high‑stakes issues.</div>
         <p class="section-lede">
           I specialize in turning complex data and political realities into clear decisions, using measurement and audience insights to guide public affairs, corporate reputation, and integrated campaigns.
         </p>
         <ul>
-          <li>Experience in Washington, DC and Brussels running campaigns that change how policymakers think about tech, finance, and sustainability.</li>
+          <li>Experience in Washington, DC, and Brussels running campaigns that change how policymakers think about tech, finance, and sustainability.</li>
           <li>Background across agency, in‑house, and consulting roles for tech platforms, financial services, hospitality brands, and global NGOs.</li>
-          <li>Partner to internal teams on clarifying ownership, building trust, and making evidence‑driven decisions under scrutiny.</li>
+          <li>Help internal teams make evidence‑driven decisions under scrutiny, clarify ownership, and build trust with audiences and stakeholders.</li>
         </ul>
       </section>
     </div>
 
-    <!-- HOW I HELP BAND (neutral) -->
+    <!-- HOW I HELP BAND -->
     <div class="section-band neutral">
       <section>
         <h2>How I Help</h2>
-        <div class="section-title">From "did this work?" to "what should we do next?"</div>
+        <div class="section-title">I turn "did this work?" into "what should we do next?"</div>
         <p class="section-lede">
           I work with marketing and public affairs teams to design systems that quantify impact, reveal where to invest next, and align stakeholders around a shared playbook.
         </p>
@@ -406,11 +403,11 @@
       </section>
     </div>
 
-    <!-- CASE STUDIES BAND (cool) -->
+    <!-- CASE STUDIES BAND -->
     <div class="section-band cool">
       <section id="cases">
         <h2>Case Studies</h2>
-        <div class="section-title">Selected work</div>
+        <div class="section-title">Here's how I've helped teams move opinion and drive results.</div>
         <p class="section-lede">
           Examples of using measurement, audience strategy, and creative to move opinion, close partisan gaps, and drive behavior change.
         </p>
@@ -503,14 +500,12 @@
       </section>
     </div>
 
-    <!-- CONTACT BAND (white) -->
+    <!-- CONTACT BAND -->
     <div class="section-band white">
       <section id="contact">
         <h2>Contact</h2>
-        <div class="section-title">Let's talk about your next campaign.</div>
+        <div class="section-title">Let's talk about how I can help you make better decisions in complex, high‑stakes environments.</div>
         <p class="contact-block">
-          I work with corporate marketing and public affairs teams who want to make better decisions in complex, high‑stakes environments.<br />
-          <br />
           Email: <a href="mailto:David@LeavittDC.com">David@LeavittDC.com</a><br />
           LinkedIn: <a href="https://linkedin.com/in/davidleavitt/" target="_blank">linkedin.com/in/davidleavitt/</a>
         </p>

@@ -63,26 +63,19 @@
       color: var(--accent);
     }
 
-    /* ========================================
-       HERO SECTION - PARALLAX IMAGE PLACEHOLDER
-       ========================================
-       TO ADD YOUR BRUSSELS/DC PHOTO:
-       1. Upload your image and get a public URL (e.g., from Imgur, Dropbox, or GitHub itself)
-       2. Uncomment the line below and replace YOUR_IMAGE_URL_HERE with your image URL
-       3. Commit and refresh - the parallax effect is already wired up!
-    */
+    /* HERO SECTION with Brussels photo and parallax */
     .hero-section {
       background: var(--bg-hero);
-      /* background-image: url('YOUR_IMAGE_URL_HERE'); */
+      background-image: url('https://express.adobe.com/page/yPbH7LOQ0kv0s/images/46fbab8e-45e7-4995-8db6-703af664150b.jpg?asset_id=80b855e5-d9d1-45e9-ae85-42bb79e0bdb0&img_etag=656810871b7b907f04d4288a3558a587&size=1024');
       background-size: cover;
       background-position: center;
-      background-attachment: fixed; /* Creates parallax effect */
+      background-attachment: fixed; /* Parallax effect */
       padding: 64px 24px 72px;
       border-bottom: 1px solid var(--border);
       position: relative;
     }
 
-    /* Optional overlay to help text readability if your image is bright */
+    /* Overlay to keep text readable over your Brussels photo */
     .hero-section::before {
       content: '';
       position: absolute;
@@ -90,7 +83,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(255, 255, 255, 0.85); /* Adjust opacity when you add image */
+      background: rgba(255, 255, 255, 0.88);
       pointer-events: none;
     }
 
@@ -110,8 +103,9 @@
     }
 
     h1 {
-      font-family: var(--font-serif);
+      font-family: var(--font-sans); /* Changed from serif to sans */
       font-size: clamp(32px, 5vw, 44px);
+      font-weight: 700;
       line-height: 1.15;
       margin-bottom: 16px;
       max-width: 640px;
@@ -339,6 +333,9 @@
         align-items: flex-start;
         gap: 4px;
       }
+      .hero-section {
+        background-attachment: scroll; /* Disable parallax on mobile for better performance */
+      }
     }
   </style>
 </head>
@@ -353,7 +350,7 @@
       </nav>
     </header>
 
-    <!-- HERO BAND -->
+    <!-- HERO BAND with your Brussels photo -->
     <div class="hero-section">
       <div class="hero">
         <div class="hero-kicker">Public affairs marketing · Washington, DC & Brussels</div>

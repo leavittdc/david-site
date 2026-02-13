@@ -55,7 +55,7 @@
     .hero {
       max-width: 960px;
       margin: 24px auto 40px;
-      padding: 32px 24px 40px;
+      padding: 40px 24px 48px;
       border-radius: 16px;
       background: linear-gradient(135deg, rgba(17,23,39,0.96), rgba(10,16,30,0.98));
       border: 1px solid rgba(255,255,255,0.04);
@@ -135,7 +135,7 @@
     }
 
     section {
-      margin-top: 40px;
+      margin-top: 64px;
     }
 
     section h2 {
@@ -185,7 +185,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 20px;
       margin-top: 12px;
     }
@@ -193,7 +193,7 @@
     .card {
       background: var(--card);
       border-radius: 14px;
-      padding: 18px 18px 20px;
+      padding: 22px 22px 24px;
       border: 1px solid rgba(255,255,255,0.03);
     }
 
@@ -222,6 +222,12 @@
       color: var(--muted);
     }
 
+    #cases {
+      padding: 32px 24px 40px;
+      margin: 64px -24px 0;
+      background: radial-gradient(circle at top, #151a30 0, #050712 60%, #02030a 100%);
+    }
+
     footer {
       max-width: 960px;
       margin: 0 auto;
@@ -247,6 +253,10 @@
       .two-col {
         grid-template-columns: minmax(0, 1fr);
       }
+      #cases {
+        margin: 48px -16px 0;
+        padding: 24px 16px 32px;
+      }
     }
   </style>
 </head>
@@ -265,8 +275,7 @@
       <div class="hero-kicker">Public affairs marketing · Washington, DC & Brussels</div>
       <h1>I build data‑driven public affairs marketing that earns trust, shifts opinion, and guides smarter decisions.</h1>
       <p class="hero-sub">
-        Corporate marketing strategist helping teams move from gut decisions to evidence‑backed strategy across policy,
-        reputation, and board‑level communications.
+        Corporate marketing strategist helping teams move from gut decisions to evidence‑backed strategy across policy, reputation, and board‑level communications.
       </p>
       <div class="hero-cta">
         <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
@@ -357,7 +366,9 @@
           <div class="card-kicker">Meta · Measurement</div>
           <div class="card-title">Building a policy marketing measurement roadmap</div>
           <div class="card-body">
-            Designed a multi‑layered framework using brand lift, matched‑market testing, and a centralized learning agenda so corporate policy campaigns could see impact by channel and partner.
+            High‑stakes policy campaigns were being guided by weekly sentiment surveys with no clear view of which channels or partners actually drove change. 
+            I designed a multi‑layered measurement roadmap using brand lift, matched‑market tests, and a centralized learning agenda. 
+            Result: teams shifted budget into channels with proven incremental lift and started planning campaigns from evidence, not intuition.
             <div class="pill-row">Brand lift · Incremental lift · Learning agenda</div>
           </div>
         </div>
@@ -366,7 +377,9 @@
           <div class="card-kicker">Meta · Audience strategy</div>
           <div class="card-title">Reframing who is actually persuadable</div>
           <div class="card-body">
-            Partnered on a persuadable audience model that surfaced older adults and parents as highest‑potential targets, then rebuilt media and creative strategy to follow the data.
+            Internal intuition said younger, tech‑savvy audiences were our natural allies on competition and safety issues. 
+            Working with an external agency, I championed a persuadable audience model that surfaced older adults and parents as the real leverage points. 
+            Result: campaigns using the model delivered 2–3 point gains in key metrics versus our broader, intuition‑driven targeting.
             <div class="pill-row">Persuadable modeling · Policy elites · Targeting</div>
           </div>
         </div>
@@ -375,7 +388,9 @@
           <div class="card-kicker">Meta · Bipartisan playbook</div>
           <div class="card-title">Closing partisan engagement gaps</div>
           <div class="card-body">
-            Used district‑level data and media analysis to pivot policy marketing toward local TV news and locally grounded narratives, increasing resonance with Republican audiences while maintaining Democratic support.
+            Research showed our policy marketing was landing with Democrats but underperforming with Republican stakeholders in key districts. 
+            I led a cross‑functional push to map Republican‑leaning regions and media habits, then pivoted our strategy toward local TV news and locally grounded narratives. 
+            Result: we saw a 14 percent increase in message resonance among conservative audiences without losing ground with Democrats.
             <div class="pill-row">Bipartisan strategy · Local media · Narrative design</div>
           </div>
         </div>
@@ -384,7 +399,9 @@
           <div class="card-kicker">Intuit · Trust</div>
           <div class="card-title">From vanity metrics to trust engine</div>
           <div class="card-body">
-            Shifted Public Affairs from impressions and CTRs to trust, credibility, and cost per point of lift, embedding a learning agenda and pre‑testing to validate what truly moves opinion.
+            Public Affairs was optimized for impressions and CTRs with no line of sight to trust, credibility, or message pull‑through. 
+            I reoriented the program around competitive landscape analysis, a learning‑agenda culture, and KPIs tied to trust survey lift and cost per point of lift. 
+            Result: budget now follows persuasion impact, campaigns are more efficient, and teams make decisions faster with shared evidence.
             <div class="pill-row">Reputation · CPPL · Learning culture</div>
           </div>
         </div>
@@ -393,7 +410,9 @@
           <div class="card-kicker">UNICEF · UNGA</div>
           <div class="card-title">Owning the conversation on children</div>
           <div class="card-body">
-            Led a real‑time content studio at UN General Assembly, turning small moments into social storytelling that captured a leading share of online conversation on children and SDGs.
+            At UN General Assembly, UNICEF needed to stand out and keep the focus on children, not abstract goals. 
+            I built an onsite real‑time content studio and a distinct visual identity so we could turn small hallway moments into platform‑native stories in hours, not weeks. 
+            Result: UNICEF owned about 46 percent of the online conversation about children and SDGs that week and set the model for future high‑level events.
             <div class="pill-row">Real‑time content · Social · Share of voice</div>
           </div>
         </div>
@@ -402,7 +421,9 @@
           <div class="card-kicker">FEVE · Experiential</div>
           <div class="card-title">Making sustainability playful at checkout</div>
           <div class="card-body">
-            Designed multi‑market retail activations and social amplification that used animated “thank you” moments and rigorous brand lift studies to increase intent to choose glass packaging.
+            Ocean plastic anxiety was rising, and glass packaging needed a way to feel like an everyday, ocean‑friendly choice at the shelf. 
+            I led a multi‑market experiential campaign where animated dolphins “thanked” shoppers at checkout, then amplified the reactions with social and rigorous brand‑lift studies. 
+            Result: we drove a 6.6‑point lift in glass purchase intent in Italy and a 5‑point lift in perceptions of glass as ocean‑friendly in Spain.
             <div class="pill-row">Experiential retail · Behavior change · Brand lift</div>
           </div>
         </div>

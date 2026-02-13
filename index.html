@@ -156,4 +156,280 @@
     }
 
     .section-title {
-      font-fa
+      font-family: var(--font-serif);
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .section-lede {
+      font-size: 15px;
+      color: var(--muted);
+      margin-bottom: 16px;
+      max-width: 640px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 15px;
+      color: var(--muted);
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 18px;
+      position: relative;
+    }
+
+    ul li:before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    .pill-row {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    .case-list {
+      margin-top: 24px;
+    }
+
+    .case {
+      padding: 20px 0 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .case:last-child {
+      border-bottom: none;
+    }
+
+    .case-kicker {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .case-title {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .case-body {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 680px;
+      line-height: 1.7;
+    }
+
+    .contact-block {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.9;
+    }
+
+    .contact-block a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+    }
+
+    .contact-block a:hover {
+      border-bottom-color: transparent;
+    }
+
+    footer {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 24px 24px 32px;
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      nav a {
+        margin-left: 0;
+        margin-right: 16px;
+      }
+      .section-band {
+        padding: 40px 20px 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="logo">David&nbsp;Leavitt</div>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#cases">Case studies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO BAND -->
+    <div class="hero-section">
+      <div class="hero">
+        <div class="hero-kicker">Public affairs marketing · Washington, DC & Brussels</div>
+        <h1>I build data‑driven public affairs marketing that earns trust, shifts opinion, and guides smarter decisions.</h1>
+        <p class="hero-sub">
+          Corporate marketing strategist helping teams move from gut decisions to evidence‑backed strategy across policy, reputation, and board‑level communications.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact">Contact me</a>
+        </div>
+        <p class="tagline">
+          Former Meta corporate marketing · Consultant to Intuit global public affairs.
+        </p>
+      </div>
+    </div>
+
+    <!-- ABOUT & HOW I HELP BAND (warm) -->
+    <div class="section-band warm">
+      <section id="work">
+        <h2>Who I Am</h2>
+        <div class="section-title">Corporate marketing strategist for complex, high‑stakes issues.</div>
+        <p class="section-lede">
+          I specialize in turning complex data and political realities into clear decisions, using measurement and audience insights to guide public affairs, corporate reputation, and integrated campaigns.
+        </p>
+        <ul>
+          <li>Experience in Washington, DC and Brussels running campaigns that change how policymakers think about tech, finance, and sustainability.</li>
+          <li>Background across agency, in‑house, and consulting roles for tech platforms, financial services, hospitality brands, and global NGOs.</li>
+          <li>Partner to internal teams on clarifying ownership, building trust, and making evidence‑driven decisions under scrutiny.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top: 56px;">
+        <h2>How I Help</h2>
+        <div class="section-title">From "did this work?" to "what should we do next?"</div>
+        <p class="section-lede">
+          I work with marketing and public affairs teams to design systems that quantify impact, reveal where to invest next, and align stakeholders around a shared playbook.
+        </p>
+        <ul>
+          <li>Build measurement frameworks, evaluation systems, and strategic guidance that connect campaigns to policy and business outcomes.</li>
+          <li>Deliver landscape assessments, funnel strategies, measurement roadmaps, messaging platforms, campaign playbooks, and board‑ready narratives.</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- CASE STUDIES BAND (cool) -->
+    <div class="section-band cool">
+      <section id="cases">
+        <h2>Case Studies</h2>
+        <div class="section-title">Selected work</div>
+        <p class="section-lede">
+          Examples of using measurement, audience strategy, and creative to move opinion, close partisan gaps, and drive behavior change.
+        </p>
+
+        <div class="case-list">
+          <article class="case">
+            <div class="case-kicker">Meta · Measurement</div>
+            <div class="case-title">Building a policy marketing measurement roadmap</div>
+            <p class="case-body">
+              High‑stakes policy campaigns were being guided by weekly sentiment surveys with no clear view of which channels or partners actually drove change. 
+              I designed a multi‑layered measurement roadmap using brand lift, matched‑market tests, and a centralized learning agenda. 
+              Result: teams shifted budget into channels with proven incremental lift and started planning campaigns from evidence, not intuition.
+            </p>
+            <p class="pill-row">Brand lift · Incremental lift · Learning agenda</p>
+          </article>
+
+          <article class="case">
+            <div class="case-kicker">Meta · Audience strategy</div>
+            <div class="case-title">Reframing who is actually persuadable</div>
+            <p class="case-body">
+              Internal intuition said younger, tech‑savvy audiences were our natural allies on competition and safety issues. 
+              Working with an external agency, I championed a persuadable audience model that surfaced older adults and parents as the real leverage points. 
+              Result: campaigns using the model delivered 2–3 point gains in key metrics versus our broader, intuition‑driven targeting.
+            </p>
+            <p class="pill-row">Persuadable modeling · Policy elites · Targeting</p>
+          </article>
+
+          <article class="case">
+            <div class="case-kicker">Meta · Bipartisan playbook</div>
+            <div class="case-title">Closing partisan engagement gaps</div>
+            <p class="case-body">
+              Research showed our policy marketing was landing with Democrats but underperforming with Republican stakeholders in key districts. 
+              I led a cross‑functional push to map Republican‑leaning regions and media habits, then pivoted our strategy toward local TV news and locally grounded narratives. 
+              Result: we saw a 14 percent increase in message resonance among conservative audiences without losing ground with Democrats.
+            </p>
+            <p class="pill-row">Bipartisan strategy · Local media · Narrative design</p>
+          </article>
+
+          <article class="case">
+            <div class="case-kicker">Intuit · Trust</div>
+            <div class="case-title">From vanity metrics to trust engine</div>
+            <p class="case-body">
+              Public Affairs was optimized for impressions and CTRs with no line of sight to trust, credibility, or message pull‑through. 
+              I reoriented the program around competitive landscape analysis, a learning‑agenda culture, and KPIs tied to trust survey lift and cost per point of lift. 
+              Result: budget now follows persuasion impact, campaigns are more efficient, and teams make decisions faster with shared evidence.
+            </p>
+            <p class="pill-row">Reputation · CPPL · Learning culture</p>
+          </article>
+
+          <article class="case">
+            <div class="case-kicker">UNICEF · UNGA</div>
+            <div class="case-title">Owning the conversation on children</div>
+            <p class="case-body">
+              At UN General Assembly, UNICEF needed to stand out and keep the focus on children, not abstract goals. 
+              I built an onsite real‑time content studio and a distinct visual identity so we could turn small hallway moments into platform‑native stories in hours, not weeks. 
+              Result: UNICEF owned about 46 percent of the online conversation about children and SDGs that week and set the model for future high‑level events.
+            </p>
+            <p class="pill-row">Real‑time content · Social · Share of voice</p>
+          </article>
+
+          <article class="case">
+            <div class="case-kicker">FEVE · Experiential</div>
+            <div class="case-title">Making sustainability playful at checkout</div>
+            <p class="case-body">
+              Ocean plastic anxiety was rising, and glass packaging needed a way to feel like an everyday, ocean‑friendly choice at the shelf. 
+              I led a multi‑market experiential campaign where animated dolphins "thanked" shoppers at checkout, then amplified the reactions with social and rigorous brand‑lift studies. 
+              Result: we drove a 6.6‑point lift in glass purchase intent in Italy and a 5‑point lift in perceptions of glass as ocean‑friendly in Spain.
+            </p>
+            <p class="pill-row">Experiential retail · Behavior change · Brand lift</p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- CONTACT BAND (white) -->
+    <div class="section-band white">
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="section-title">Let's talk about your next campaign.</div>
+        <p class="contact-block">
+          I work with corporate marketing and public affairs teams who want to make better decisions in complex, high‑stakes environments.<br />
+          <br />
+          Email: <a href="mailto:David@LeavittDC.com">David@LeavittDC.com</a><br />
+          LinkedIn: <a href="https://linkedin.com/in/davidleavitt/" target="_blank">linkedin.com/in/davidleavitt/</a>
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <div>Available for consulting and fractional leadership.</div>
+      <div>Washington, DC · Brussels‑informed perspective.</div>
+    </footer>
+  </div>
+
+  <!-- REMINDER: To add a hero background image with parallax effect, 
+       find ".hero-section" in the CSS above and uncomment the background-image line, 
+       then replace 'YOUR_IMAGE_URL_HERE' with your image URL. -->
+</body>
+</html>

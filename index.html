@@ -44,8 +44,9 @@
     }
 
     .logo {
-      font-family: var(--font-serif);
+      font-family: var(--font-sans); /* Changed to sans-serif */
       font-size: 18px;
+      font-weight: 600;
       letter-spacing: 0.16em;
       text-transform: uppercase;
       color: var(--text);
@@ -75,7 +76,7 @@
       position: relative;
     }
 
-    /* Overlay to keep text readable over your Brussels photo */
+    /* Overlay - lighter so more image shows through */
     .hero-section::before {
       content: '';
       position: absolute;
@@ -83,7 +84,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.82); /* Reduced from 0.88 */
       pointer-events: none;
     }
 
@@ -103,9 +104,9 @@
     }
 
     h1 {
-      font-family: var(--font-sans); /* Changed from serif to sans */
+      font-family: var(--font-serif); /* Changed to serif */
       font-size: clamp(32px, 5vw, 44px);
-      font-weight: 700;
+      font-weight: 400; /* Serif usually looks better at normal weight */
       line-height: 1.15;
       margin-bottom: 16px;
       max-width: 640px;
@@ -333,8 +334,15 @@
         align-items: flex-start;
         gap: 4px;
       }
+      
+      /* Mobile: disable parallax, lighter overlay, better positioning */
       .hero-section {
-        background-attachment: scroll; /* Disable parallax on mobile for better performance */
+        background-attachment: scroll; 
+        background-position: center 30%; /* Show more interesting part of image */
+      }
+      
+      .hero-section::before {
+        background: rgba(255, 255, 255, 0.75); /* Even lighter on mobile so image pops */
       }
     }
   </style>

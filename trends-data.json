@@ -11,7 +11,7 @@ async function loadTrends() {
     const colors = ['#b8843a', '#1a1d29', '#5a5d6b', '#888b99', '#c4b49a'];
 
     const labels = timeline.map(t => {
-      const parts = t.date.split('–')[0].trim().split(' ');
+const parts = t.date.split(/\s*[\u2013\u2014-]\s*/)[0].trim().split(' ');
       return parts[0] + ' ' + parts[1];
     });
 

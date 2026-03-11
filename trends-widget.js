@@ -5,7 +5,7 @@ async function loadTrends() {
     .then(function(res) { return res.json(); })
     .then(function(json) {
       var timeline = json.interest_over_time.timeline_data;
-      var keywords = ['data centers', 'AI regulation', 'nuclear energy', 'antitrust', 'deepfake'];
+      var keywords = ['tech regulation', 'corporate reputation', 'public affairs', 'AI policy', 'data privacy'];
       var colors = ['#b8843a', '#1a1d29', '#5a5d6b', '#888b99', '#c4b49a'];
       var labels = timeline.map(function(t) {
         var parts = t.date.replace(/[^a-zA-Z0-9 ,]/g, '').trim().split('  ')[0].trim();

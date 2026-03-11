@@ -7,7 +7,7 @@ async function loadTrends() {
     const json = await res.json();
     const timeline = json.interest_over_time.timeline_data;
 
-    const keywords = ['tech regulation', 'corporate reputation', 'public affairs', 'AI policy', 'data privacy'];
+    const keywords = ['data center', 'AI regulation', 'nuclear energy', 'antitrust', 'deepfake'];
     const colors = ['#b8843a', '#1a1d29', '#5a5d6b', '#888b99', '#c4b49a'];
 
     const labels = timeline.map(t => {
@@ -43,7 +43,7 @@ async function loadTrends() {
           legend: {
             position: 'bottom',
             labels: {
-              font: { family: 'system-ui, sans-serif', size: 12 },
+              font: { family: 'system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', size: 12 },
               color: '#5a5d6b',
               boxWidth: 16,
               padding: 20,

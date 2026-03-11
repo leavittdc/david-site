@@ -13,7 +13,8 @@ jobs:
 
       - name: Fetch from SerpApi
         run: |
-          curl "https://serpapi.com/search.json?engine=google_trends&q=tech+regulation,corporate+reputation,public+affairs,AI+policy,data+privacy&data_type=TIMESERIES&date=today+12-m&geo=US&api_key=${{ secrets.SERPAPI_KEY }}" \
+          curl "https://serpapi.com/search.json?engine=google_trends&&q=data+center,AI+regulation,nuclear+energy,antitrust,deepfake
+&data_type=TIMESERIES&date=today+12-m&geo=US&api_key=${{ secrets.SERPAPI_KEY }}" \
           -o trends-data.json
 
       - name: Commit and push

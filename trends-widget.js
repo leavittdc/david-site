@@ -1,15 +1,18 @@
-async function loadTrends() {
+(function() {
   var container = document.getElementById('trends-widget');
   if (!container) return;
+
   fetch('/trends-data.json')
     .then(function(res) { return res.json(); })
     .then(function(json) {
       var timeline = json.interest_over_time.timeline_data;
-      var keywords = ["data centers", "AI regulation", "antitrust", "energy costs", "deepfakes"];
-      var colors = ["#2563eb", "#dc2626", "#16a34a", "#d97706", "#7c3aed"];
+      var keywords = ['data centers', 'AI regulation', 'antitrust', 'energy costs', 'deepfakes'];
+      var colors = ['#2563eb', '#dc2626', '#16a34a', '#d97706', '#7c3aed'];
+
       var labels = timeline.map(function(t) {
         return t.date.split('–')[0].trim();
       });
+
       var datasets = keywords.map(function(kw, i) {
         return {
           label: kw.charAt(0).toUpperCase() + kw.slice(1),
@@ -30,9 +33,11 @@ async function loadTrends() {
           fill: false
         };
       });
+
       var canvas = document.createElement('canvas');
       canvas.style.maxHeight = '320px';
       container.appendChild(canvas);
+
       new Chart(canvas, {
         type: 'line',
         data: { labels: labels, datasets: datasets },
@@ -72,8 +77,7 @@ async function loadTrends() {
               border: { color: 'rgba(0,0,0,0.08)' }
             },
             y: {
-              min: 0,
-              max: 100,
+              min: 0, max: 100,
               ticks: { font: { size: 11 }, color: '#9ca3af', stepSize: 25 },
               grid: { color: 'rgba(0,0,0,0.05)' },
               border: { display: false },
@@ -87,5 +91,4 @@ async function loadTrends() {
       container.innerHTML = '<p style="color:#6b7280;font-size:14px;">Trend data unavailable.</p>';
       console.error('Trends widget error:', e);
     });
-}
-document.addEventListener('DOMContentLoaded', loadTrends);
+})();

@@ -1,7 +1,24 @@
+name: Fetch Trends Data
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch from SerpApi
+        run: |
+          curl "https://serpapi.com/search.json?engine=google_trends&q=data+center,AI+regulation,nuclear+energy,antitrust,deepfake&data_type=TIMESERIES&date=today+12-m&geo=US&api_key=${{ secrets.SERPAPI_KEY }}" -o trends-data.json
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add trends-data.json
           git commit -m "Update trends data" || echo "No changes to commit"
-          git push origin main --force-with-lease
+          git push

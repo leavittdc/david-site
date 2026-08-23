@@ -1,15 +1,15 @@
 {
   "search_metadata": {
-    "id": "6a893f99ee028a782a29b4ff",
+    "id": "6a8a916abdfe4942afcef56f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a893f99ee028a782a29b4ff.json",
-    "markdown_endpoint": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a893f99ee028a782a29b4ff.md",
-    "created_at": "2026-08-22 06:20:09 UTC",
-    "processed_at": "2026-08-22 06:20:09 UTC",
+    "json_endpoint": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a8a916abdfe4942afcef56f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a8a916abdfe4942afcef56f.md",
+    "created_at": "2026-08-23 06:21:30 UTC",
+    "processed_at": "2026-08-23 06:21:30 UTC",
     "google_trends_url": "https://trends.google.com/trends/embed/explore/TIMESERIES?hl=en&tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22data+centers%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22AI+regulation%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22nuclear+energy%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22antitrust%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22deepfake%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
-    "raw_html_file": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a893f99ee028a782a29b4ff.html",
-    "prettify_html_file": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a893f99ee028a782a29b4ff.prettify",
-    "total_time_taken": 1.73
+    "raw_html_file": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a8a916abdfe4942afcef56f.html",
+    "prettify_html_file": "https://serpapi.com/searches/_mqQyRcJpDTw_qVmcZFN9Q/6a8a916abdfe4942afcef56f.prettify",
+    "total_time_taken": 4.69
   },
   "search_parameters": {
     "engine": "google_trends",
@@ -28,8 +28,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "15",
-            "extracted_value": 15
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "AI regulation",
@@ -64,8 +64,8 @@
           },
           {
             "query": "AI regulation",
-            "value": "2",
-            "extracted_value": 2
+            "value": "3",
+            "extracted_value": 3
           },
           {
             "query": "nuclear energy",
@@ -74,8 +74,8 @@
           },
           {
             "query": "antitrust",
-            "value": "6",
-            "extracted_value": 6
+            "value": "7",
+            "extracted_value": 7
           },
           {
             "query": "deepfake",
@@ -90,8 +90,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "14",
-            "extracted_value": 14
+            "value": "13",
+            "extracted_value": 13
           },
           {
             "query": "AI regulation",
@@ -100,8 +100,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "8",
-            "extracted_value": 8
+            "value": "9",
+            "extracted_value": 9
           },
           {
             "query": "antitrust",
@@ -152,8 +152,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "18",
-            "extracted_value": 18
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "AI regulation",
@@ -183,8 +183,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "20",
-            "extracted_value": 20
+            "value": "19",
+            "extracted_value": 19
           },
           {
             "query": "AI regulation",
@@ -214,8 +214,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "18",
-            "extracted_value": 18
+            "value": "19",
+            "extracted_value": 19
           },
           {
             "query": "AI regulation",
@@ -276,8 +276,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "22",
-            "extracted_value": 22
+            "value": "21",
+            "extracted_value": 21
           },
           {
             "query": "AI regulation",
@@ -307,8 +307,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "20",
-            "extracted_value": 20
+            "value": "21",
+            "extracted_value": 21
           },
           {
             "query": "AI regulation",
@@ -348,8 +348,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "21",
-            "extracted_value": 21
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "antitrust",
@@ -369,18 +369,18 @@
         "values": [
           {
             "query": "data centers",
-            "value": "28",
-            "extracted_value": 28
+            "value": "27",
+            "extracted_value": 27
           },
           {
             "query": "AI regulation",
-            "value": "20",
-            "extracted_value": 20
+            "value": "24",
+            "extracted_value": 24
           },
           {
             "query": "nuclear energy",
-            "value": "20",
-            "extracted_value": 20
+            "value": "18",
+            "extracted_value": 18
           },
           {
             "query": "antitrust",
@@ -405,13 +405,13 @@
           },
           {
             "query": "AI regulation",
-            "value": "18",
-            "extracted_value": 18
+            "value": "19",
+            "extracted_value": 19
           },
           {
             "query": "nuclear energy",
-            "value": "16",
-            "extracted_value": 16
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "antitrust",
@@ -431,8 +431,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "28",
-            "extracted_value": 28
+            "value": "30",
+            "extracted_value": 30
           },
           {
             "query": "AI regulation",
@@ -441,13 +441,13 @@
           },
           {
             "query": "nuclear energy",
-            "value": "18",
-            "extracted_value": 18
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "antitrust",
-            "value": "14",
-            "extracted_value": 14
+            "value": "15",
+            "extracted_value": 15
           },
           {
             "query": "deepfake",
@@ -462,13 +462,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "22",
-            "extracted_value": 22
+            "value": "23",
+            "extracted_value": 23
           },
           {
             "query": "AI regulation",
-            "value": "22",
-            "extracted_value": 22
+            "value": "21",
+            "extracted_value": 21
           },
           {
             "query": "nuclear energy",
@@ -498,8 +498,8 @@
           },
           {
             "query": "AI regulation",
-            "value": "21",
-            "extracted_value": 21
+            "value": "22",
+            "extracted_value": 22
           },
           {
             "query": "nuclear energy",
@@ -508,8 +508,8 @@
           },
           {
             "query": "antitrust",
-            "value": "19",
-            "extracted_value": 19
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "deepfake",
@@ -539,8 +539,8 @@
           },
           {
             "query": "antitrust",
-            "value": "19",
-            "extracted_value": 19
+            "value": "18",
+            "extracted_value": 18
           },
           {
             "query": "deepfake",
@@ -555,13 +555,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "30",
-            "extracted_value": 30
+            "value": "31",
+            "extracted_value": 31
           },
           {
             "query": "AI regulation",
-            "value": "17",
-            "extracted_value": 17
+            "value": "18",
+            "extracted_value": 18
           },
           {
             "query": "nuclear energy",
@@ -596,8 +596,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "7",
-            "extracted_value": 7
+            "value": "8",
+            "extracted_value": 8
           },
           {
             "query": "antitrust",
@@ -617,13 +617,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "26",
-            "extracted_value": 26
+            "value": "24",
+            "extracted_value": 24
           },
           {
             "query": "AI regulation",
-            "value": "15",
-            "extracted_value": 15
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "nuclear energy",
@@ -648,8 +648,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "27",
-            "extracted_value": 27
+            "value": "26",
+            "extracted_value": 26
           },
           {
             "query": "AI regulation",
@@ -663,8 +663,8 @@
           },
           {
             "query": "antitrust",
-            "value": "9",
-            "extracted_value": 9
+            "value": "10",
+            "extracted_value": 10
           },
           {
             "query": "deepfake",
@@ -679,8 +679,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "31",
-            "extracted_value": 31
+            "value": "29",
+            "extracted_value": 29
           },
           {
             "query": "AI regulation",
@@ -710,8 +710,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "32",
-            "extracted_value": 32
+            "value": "31",
+            "extracted_value": 31
           },
           {
             "query": "AI regulation",
@@ -720,8 +720,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "16",
-            "extracted_value": 16
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "antitrust",
@@ -741,8 +741,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "32",
-            "extracted_value": 32
+            "value": "34",
+            "extracted_value": 34
           },
           {
             "query": "AI regulation",
@@ -772,8 +772,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "41",
-            "extracted_value": 41
+            "value": "43",
+            "extracted_value": 43
           },
           {
             "query": "AI regulation",
@@ -782,8 +782,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "23",
-            "extracted_value": 23
+            "value": "20",
+            "extracted_value": 20
           },
           {
             "query": "antitrust",
@@ -818,8 +818,8 @@
           },
           {
             "query": "antitrust",
-            "value": "19",
-            "extracted_value": 19
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "deepfake",
@@ -834,8 +834,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "42",
-            "extracted_value": 42
+            "value": "43",
+            "extracted_value": 43
           },
           {
             "query": "AI regulation",
@@ -844,13 +844,13 @@
           },
           {
             "query": "nuclear energy",
-            "value": "17",
-            "extracted_value": 17
+            "value": "18",
+            "extracted_value": 18
           },
           {
             "query": "antitrust",
-            "value": "16",
-            "extracted_value": 16
+            "value": "15",
+            "extracted_value": 15
           },
           {
             "query": "deepfake",
@@ -865,8 +865,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "46",
-            "extracted_value": 46
+            "value": "49",
+            "extracted_value": 49
           },
           {
             "query": "AI regulation",
@@ -875,13 +875,13 @@
           },
           {
             "query": "nuclear energy",
-            "value": "20",
-            "extracted_value": 20
+            "value": "21",
+            "extracted_value": 21
           },
           {
             "query": "antitrust",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "deepfake",
@@ -896,8 +896,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "56",
-            "extracted_value": 56
+            "value": "57",
+            "extracted_value": 57
           },
           {
             "query": "AI regulation",
@@ -906,8 +906,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "23",
-            "extracted_value": 23
+            "value": "22",
+            "extracted_value": 22
           },
           {
             "query": "antitrust",
@@ -927,8 +927,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "44",
-            "extracted_value": 44
+            "value": "43",
+            "extracted_value": 43
           },
           {
             "query": "AI regulation",
@@ -958,8 +958,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "45",
-            "extracted_value": 45
+            "value": "46",
+            "extracted_value": 46
           },
           {
             "query": "AI regulation",
@@ -978,8 +978,8 @@
           },
           {
             "query": "deepfake",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           }
         ]
       },
@@ -999,8 +999,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "19",
-            "extracted_value": 19
+            "value": "22",
+            "extracted_value": 22
           },
           {
             "query": "antitrust",
@@ -1020,8 +1020,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "43",
-            "extracted_value": 43
+            "value": "44",
+            "extracted_value": 44
           },
           {
             "query": "AI regulation",
@@ -1051,18 +1051,18 @@
         "values": [
           {
             "query": "data centers",
-            "value": "44",
-            "extracted_value": 44
+            "value": "46",
+            "extracted_value": 46
           },
           {
             "query": "AI regulation",
-            "value": "14",
-            "extracted_value": 14
+            "value": "15",
+            "extracted_value": 15
           },
           {
             "query": "nuclear energy",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "antitrust",
@@ -1071,8 +1071,8 @@
           },
           {
             "query": "deepfake",
-            "value": "13",
-            "extracted_value": 13
+            "value": "14",
+            "extracted_value": 14
           }
         ]
       },
@@ -1082,8 +1082,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "52",
-            "extracted_value": 52
+            "value": "51",
+            "extracted_value": 51
           },
           {
             "query": "AI regulation",
@@ -1092,18 +1092,18 @@
           },
           {
             "query": "nuclear energy",
-            "value": "20",
-            "extracted_value": 20
+            "value": "19",
+            "extracted_value": 19
           },
           {
             "query": "antitrust",
-            "value": "15",
-            "extracted_value": 15
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "deepfake",
-            "value": "14",
-            "extracted_value": 14
+            "value": "15",
+            "extracted_value": 15
           }
         ]
       },
@@ -1113,8 +1113,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "56",
-            "extracted_value": 56
+            "value": "55",
+            "extracted_value": 55
           },
           {
             "query": "AI regulation",
@@ -1149,8 +1149,8 @@
           },
           {
             "query": "AI regulation",
-            "value": "18",
-            "extracted_value": 18
+            "value": "14",
+            "extracted_value": 14
           },
           {
             "query": "nuclear energy",
@@ -1175,8 +1175,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "59",
-            "extracted_value": 59
+            "value": "58",
+            "extracted_value": 58
           },
           {
             "query": "AI regulation",
@@ -1190,8 +1190,8 @@
           },
           {
             "query": "antitrust",
-            "value": "17",
-            "extracted_value": 17
+            "value": "15",
+            "extracted_value": 15
           },
           {
             "query": "deepfake",
@@ -1206,8 +1206,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "81",
-            "extracted_value": 81
+            "value": "80",
+            "extracted_value": 80
           },
           {
             "query": "AI regulation",
@@ -1216,8 +1216,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "23",
-            "extracted_value": 23
+            "value": "20",
+            "extracted_value": 20
           },
           {
             "query": "antitrust",
@@ -1237,18 +1237,18 @@
         "values": [
           {
             "query": "data centers",
-            "value": "97",
-            "extracted_value": 97
+            "value": "96",
+            "extracted_value": 96
           },
           {
             "query": "AI regulation",
-            "value": "16",
-            "extracted_value": 16
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "nuclear energy",
-            "value": "18",
-            "extracted_value": 18
+            "value": "20",
+            "extracted_value": 20
           },
           {
             "query": "antitrust",
@@ -1268,13 +1268,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "96",
-            "extracted_value": 96
+            "value": "93",
+            "extracted_value": 93
           },
           {
             "query": "AI regulation",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "nuclear energy",
@@ -1283,8 +1283,8 @@
           },
           {
             "query": "antitrust",
-            "value": "10",
-            "extracted_value": 10
+            "value": "9",
+            "extracted_value": 9
           },
           {
             "query": "deepfake",
@@ -1304,8 +1304,8 @@
           },
           {
             "query": "AI regulation",
-            "value": "19",
-            "extracted_value": 19
+            "value": "18",
+            "extracted_value": 18
           },
           {
             "query": "nuclear energy",
@@ -1330,8 +1330,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "95",
-            "extracted_value": 95
+            "value": "96",
+            "extracted_value": 96
           },
           {
             "query": "AI regulation",
@@ -1345,8 +1345,8 @@
           },
           {
             "query": "antitrust",
-            "value": "12",
-            "extracted_value": 12
+            "value": "13",
+            "extracted_value": 13
           },
           {
             "query": "deepfake",
@@ -1361,18 +1361,18 @@
         "values": [
           {
             "query": "data centers",
-            "value": "68",
-            "extracted_value": 68
+            "value": "67",
+            "extracted_value": 67
           },
           {
             "query": "AI regulation",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "nuclear energy",
-            "value": "11",
-            "extracted_value": 11
+            "value": "12",
+            "extracted_value": 12
           },
           {
             "query": "antitrust",
@@ -1392,13 +1392,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "75",
-            "extracted_value": 75
+            "value": "74",
+            "extracted_value": 74
           },
           {
             "query": "AI regulation",
-            "value": "17",
-            "extracted_value": 17
+            "value": "16",
+            "extracted_value": 16
           },
           {
             "query": "nuclear energy",
@@ -1423,13 +1423,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "77",
-            "extracted_value": 77
+            "value": "74",
+            "extracted_value": 74
           },
           {
             "query": "AI regulation",
-            "value": "21",
-            "extracted_value": 21
+            "value": "20",
+            "extracted_value": 20
           },
           {
             "query": "nuclear energy",
@@ -1454,13 +1454,13 @@
         "values": [
           {
             "query": "data centers",
-            "value": "70",
-            "extracted_value": 70
+            "value": "71",
+            "extracted_value": 71
           },
           {
             "query": "AI regulation",
-            "value": "18",
-            "extracted_value": 18
+            "value": "17",
+            "extracted_value": 17
           },
           {
             "query": "nuclear energy",
@@ -1469,13 +1469,13 @@
           },
           {
             "query": "antitrust",
-            "value": "11",
-            "extracted_value": 11
+            "value": "12",
+            "extracted_value": 12
           },
           {
             "query": "deepfake",
-            "value": "13",
-            "extracted_value": 13
+            "value": "14",
+            "extracted_value": 14
           }
         ]
       },
@@ -1485,8 +1485,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "68",
-            "extracted_value": 68
+            "value": "69",
+            "extracted_value": 69
           },
           {
             "query": "AI regulation",
@@ -1516,8 +1516,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "71",
-            "extracted_value": 71
+            "value": "72",
+            "extracted_value": 72
           },
           {
             "query": "AI regulation",
@@ -1536,8 +1536,8 @@
           },
           {
             "query": "deepfake",
-            "value": "6",
-            "extracted_value": 6
+            "value": "7",
+            "extracted_value": 7
           }
         ]
       },
@@ -1567,8 +1567,8 @@
           },
           {
             "query": "deepfake",
-            "value": "6",
-            "extracted_value": 6
+            "value": "7",
+            "extracted_value": 7
           }
         ]
       },
@@ -1578,8 +1578,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "64",
-            "extracted_value": 64
+            "value": "65",
+            "extracted_value": 65
           },
           {
             "query": "AI regulation",
@@ -1588,8 +1588,8 @@
           },
           {
             "query": "nuclear energy",
-            "value": "5",
-            "extracted_value": 5
+            "value": "6",
+            "extracted_value": 6
           },
           {
             "query": "antitrust",
@@ -1609,8 +1609,8 @@
         "values": [
           {
             "query": "data centers",
-            "value": "55",
-            "extracted_value": 55
+            "value": "57",
+            "extracted_value": 57
           },
           {
             "query": "AI regulation",
@@ -1629,20 +1629,19 @@
           },
           {
             "query": "deepfake",
-            "value": "5",
-            "extracted_value": 5
+            "value": "6",
+            "extracted_value": 6
           }
         ]
       },
       {
         "date": "Aug 16 – 22, 2026",
         "timestamp": "1786838400",
-        "partial_data": true,
         "values": [
           {
             "query": "data centers",
-            "value": "59",
-            "extracted_value": 59
+            "value": "61",
+            "extracted_value": 61
           },
           {
             "query": "AI regulation",
@@ -1665,6 +1664,38 @@
             "extracted_value": 5
           }
         ]
+      },
+      {
+        "date": "Aug 23 – 29, 2026",
+        "timestamp": "1787443200",
+        "partial_data": true,
+        "values": [
+          {
+            "query": "data centers",
+            "value": "38",
+            "extracted_value": 38
+          },
+          {
+            "query": "AI regulation",
+            "value": "1",
+            "extracted_value": 1
+          },
+          {
+            "query": "nuclear energy",
+            "value": "3",
+            "extracted_value": 3
+          },
+          {
+            "query": "antitrust",
+            "value": "2",
+            "extracted_value": 2
+          },
+          {
+            "query": "deepfake",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
       }
     ],
     "averages": [
@@ -1674,7 +1705,7 @@
       },
       {
         "query": "AI regulation",
-        "value": 13
+        "value": 12
       },
       {
         "query": "nuclear energy",
@@ -1682,7 +1713,7 @@
       },
       {
         "query": "antitrust",
-        "value": 12
+        "value": 11
       },
       {
         "query": "deepfake",
